@@ -4,8 +4,10 @@ If you're encountering issues with port 3306 being in use, preventing MySQL/Mari
 
 ## Step 1: Identify Processes Using Port 3306
 
-Open a command prompt and run the following command to identify processes using port 3306:
-`netstat -ano | find "3306"`
+Open a command prompt and run the following command to identify processes using port 3306:  
+
+`netstat -ano | find "3306"`  
+
 ## Step 2: Stop Conflicting Process
 
 2.1. Open Task Manager by pressing `Ctrl + Shift + Esc`.
@@ -31,7 +33,11 @@ Open a command prompt and run the following command to identify processes using 
 
 ## Step 5: Check Port Availability
 
-Run the following command to check if port 3306 is now available:
+Run the following command to check if port 3306 is now available:  
+
+`netstat -ano | find "3306"`  
+- If no results are returned, the port is now available.  
+
 ## Step 6: Change MySQL/MariaDB Port (Optional)
 
 If conflicts persist, consider changing the MySQL/MariaDB port.
