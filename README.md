@@ -8,6 +8,8 @@ Open a command prompt and run the following command to identify processes using 
 
 `netstat -ano | find "3306"`  
 
+- Note the Process ID (PID) associated with the port.
+- 
 ## Step 2: Stop Conflicting Process
 
 2.1. Open Task Manager by pressing `Ctrl + Shift + Esc`.
