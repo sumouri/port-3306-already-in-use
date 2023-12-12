@@ -5,8 +5,7 @@ If you're encountering issues with port 3306 being in use, preventing MySQL/Mari
 ## Step 1: Identify Processes Using Port 3306
 
 Open a command prompt and run the following command to identify processes using port 3306:
-
-
+`netstat -ano | find "3306"`
 ## Step 2: Stop Conflicting Process
 
 2.1. Open Task Manager by pressing `Ctrl + Shift + Esc`.
